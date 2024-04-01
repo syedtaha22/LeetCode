@@ -12,3 +12,5 @@ public:
         return std::vector<int>{-1};
     }
 };
+
+int main(){}
