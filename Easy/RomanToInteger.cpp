@@ -48,9 +48,4 @@ public:
 };
 
 
-int main(){
-    Solution s;
-
-    std::string romanNumber = "MCMXCIV";
-    std::cout << romanNumber << " = " << s.romanToInt(romanNumber) << std::endl;
-}
+int main(){}
