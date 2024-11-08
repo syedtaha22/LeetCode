@@ -1,7 +1,11 @@
-#include<iostream>
+/****************************************************************
+ *
+ * LeetCode 4. Median of Two Sorted Arrays
+ *
+ * *************************************************************/
+
 #include<vector>
 #include<algorithm>
-
 
 class Solution {
 public:

@@ -1,3 +1,9 @@
+/****************************************************************
+ *
+ * LeetCode 219. Contains Duplicate II
+ *
+ * *************************************************************/
+
 #include<vector>
 #include<unordered_map>
 
@@ -12,7 +18,6 @@ public:
             }
             numIndexMap[nums[i]] = i;
         }
-
         return false;
     }
 };

@@ -1,5 +1,10 @@
-#include<iostream>
+/****************************************************************
+ *
+ * LeetCode 7. Reverse Integer
+ *
+ * *************************************************************/
 
+#include<iostream>
 
 class Solution {
 public:
@@ -19,5 +24,3 @@ public:
         return reversed;
     }
 };
-
-

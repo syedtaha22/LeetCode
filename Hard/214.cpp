@@ -1,4 +1,9 @@
-#include <iostream>
+/****************************************************************
+ *
+ * LeetCode 214. Shortest Palindrome
+ *
+ * *************************************************************/
+
 #include <string>
 #include <vector>
 #include <algorithm> // for reverse function
