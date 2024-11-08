@@ -1,4 +1,3 @@
-#include<iostream>
 #include<vector>
 #include<string>
 
@@ -34,11 +33,4 @@ public:
         }
         return s.substr(start, maxLen);
     }
-};
-
-int main(){}
-
-
-
-
-    
+};   

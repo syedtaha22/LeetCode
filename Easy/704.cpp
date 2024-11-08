@@ -1,8 +1,4 @@
-#include<iostream>
 #include<vector>
-#include<algorithm>
-#include<cmath>
-
 
 class Solution {
 public:
@@ -10,15 +6,12 @@ public:
         int left = 0;
         int right = nums.size() - 1;
         int mid = -1;
-        while (left <= right){
+        while (left <= right) {
             mid = (right + left) / 2;
-            if(nums[mid] < target) left = mid + 1;
-            else if(nums[mid] > target) right = mid - 1;
+            if (nums[mid] < target) left = mid + 1;
+            else if (nums[mid] > target) right = mid - 1;
             else return mid;
         }
-        return -1;        
+        return -1;
     }
 };
-
-
-int main(){}

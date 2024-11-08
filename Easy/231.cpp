@@ -1,6 +1,3 @@
-#include<iostream>
-#include<cmath>
-
 class Solution {
 public:
     bool isPowerOfTwo(int n) {
@@ -11,13 +8,3 @@ public:
         else return false;
     }
 };
-
-
-int main(){
-
-    Solution s;
-    for (int i = 0; i <= 200; i++){
-        if (s.isPowerOfTwo(i)) std::cout << i << " ";
-    }
-
-}

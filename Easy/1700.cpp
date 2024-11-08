@@ -38,4 +38,3 @@ public:
     }
 };
 
-int main() {}

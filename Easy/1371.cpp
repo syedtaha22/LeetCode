@@ -1,8 +1,3 @@
-/*
-    1371. Find the Longest Substring Containing Vowels in Even Counts
-*/
-
-#include <iostream>
 #include <string>
 #include <unordered_map>
 
@@ -38,5 +33,3 @@ public:
         return maxLength;
     }
 };
-
-int main() {}

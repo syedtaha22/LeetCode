@@ -17,8 +17,4 @@ public:
         }
         return result * sign;
     }
-
 };
-
-
-int main(){}
